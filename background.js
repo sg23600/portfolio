@@ -1,8 +1,6 @@
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 
-
-
 function resize() {
     var box = c.getBoundingClientRect();
     c.width = box.width;
