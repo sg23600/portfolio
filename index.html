@@ -1,197 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sujay Goswami</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="background.css" >
-</head>
-<body><canvas id="canvas"></canvas>
-    <div class="container-fluid" style="padding: 0; margin: 0; margin-top: -8px;">
-        
-        <script src="background.js"></script>
-    <!-- <h1>Hello, I'm Sujay Goswami.<br>I'm an ML and web development enthusiast.
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="background.css" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div
+      class="container-fluid"
+      style="padding: 0; margin: 0; margin-top: -8px;"
+    >
+      <script src="background.js"></script>
+      <!-- <h1>Hello, I'm Sujay Goswami.<br>I'm an ML and web development enthusiast.
     </h1> -->
-    
-    <!-- NAVBAR -->
-    <div id="navbar" style="z-index: 1; margin: 0;">
+
+      <!-- NAVBAR -->
+      <div id="navbar" style="z-index: 1; margin: 0;">
         <a class="active" href="#">Home</a>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#blogs">Blog</a>
         <a href="#contact">Contact</a>
-    </div>
-    <!-- ABOUT -->
-    <h2 id="about" class="tab gap">ABOUT</h2>
+      </div>
+      <!-- ABOUT -->
+      <h2 id="about" class="tab gap">ABOUT</h2>
 
-    <div class="about row gap">
-        <div class="about-mini col-lg-3 gap">  
-            <img src="img/fast.png"> 
-            <h3>Fast</h3>
-            <text>Fast load times and lag free interaction, my highest priority.</text>
+      <div class="about row gap">
+        <div class="about-mini col-lg-3 gap">
+          <img src="img/fast.png" />
+          <h3>Fast</h3>
+          <text
+            >Fast load times and lag free interaction, my highest
+            priority.</text
+          >
         </div>
         <div class="about-mini col-lg-3 gap">
-            <img src="img/bulb.png"> 
-            <h3>Intuitive</h3>
-            <text>Strong preference for easy to use, intuitive UX/UI.</text>
-        </div>
-        <div class="about-mini col-lg-3 gap" >
-            <img src="img/responsive.png"> 
-            <h3>Responsive</h3>
-            <text>My layouts will work on any device, big or small.</text>
+          <img src="img/bulb.png" />
+          <h3>Intuitive</h3>
+          <text>Strong preference for easy to use, intuitive UX/UI.</text>
         </div>
         <div class="about-mini col-lg-3 gap">
-            <img src="img/dynamic.png">
-            <h3>Dynamic</h3>
-            <text>Websites don't have to be static, I love making pages come to life.</text>
+          <img src="img/responsive.png" />
+          <h3>Responsive</h3>
+          <text>My layouts will work on any device, big or small.</text>
         </div>
-    </div>
+        <div class="about-mini col-lg-3 gap">
+          <img src="img/dynamic.png" />
+          <h3>Dynamic</h3>
+          <text
+            >Websites don't have to be static, I love making pages come to
+            life.</text
+          >
+        </div>
+      </div>
 
-    <div class="about-2 row gap">
+      <div class="about-2 row gap">
         <div class="about-mini-2 col-lg-2">
-             <img class="profile-img" src="img/sujay.jpeg">
+          <img class="profile-img" src="img/sujay.jpeg" />
         </div>
         <div class="about-mini-2 col-lg-3">
-            <h2>Who's this guy?</h2>
-            <text>I'm a B.Tech CSE student in SRM Chennai. Currently a member of the DS/ML team of Gen-Y club. I have passion for machine learning and web development. I want to create more for this world.</text>
+          <h2>Who's this guy?</h2>
+          <text
+            >I'm a B.Tech CSE student in SRM Chennai. Currently a member of the
+            DS/ML team of Gen-Y club. I have passion for machine learning and
+            web development. I want to create more for this world.</text
+          >
         </div>
         <div class="about-mini-2 col-lg-1 gap">
-            <p>C</p>
-            <p>C++</p>
-            <p>Python</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Bootstrap</p>
-            <p>Javascript</p>
-
+          <p>C</p>
+          <p>C++</p>
+          <p>Python</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Bootstrap</p>
+          <p>Javascript</p>
         </div>
         <div class="about-mini-2 col-lg-3 gap" style="width: 50%;">
-            <div class="prog">
-                <!-- <text>C</text> -->
-                <div class="bar">
-                    <div class="progress" style="width: 75%;"></div>
-                </div>    
-            </div>
-            <div class="prog">
-                <!-- <text>C++</text> -->
-                <div class="bar">
-                    <div class="progress" style="width: 60%;"></div>
-                </div>    
-            </div>
-            <div class="prog">
-                <!-- <text>Python</text> -->
-                <div class="bar">
-                    <div class="progress" style="width: 92%;"></div>
-                </div>    
-            </div>
-            <div class="prog">
-                <!-- <text>HTML</text> -->
-                <div class="bar">
-                    <div class="progress" style="width: 80%;"></div>
-                </div>    
-            </div>
-            <div class="prog">
-                <!-- <text>CSS</text> -->
-                <div class="bar">
-                    <div class="progress" style="width: 55%;"></div>
-                </div>    
-            </div>
-            <div class="prog">
-                <!-- <text>Bootstrap</text> -->
-                <div class="bar">
-                    <div class="progress" style="width: 35%;"></div>
-                </div>    
-            </div>
-            <div class="prog">
-                <!-- <text>Javascript</text> -->
-                <div class="bar">
-                    <div class="progress" style="width: 75%;">88%</div>
-                </div>    
-            </div>
-        </div>
-    </div>
-
-        <!-- PROJECTS -->
-        <h2 id="projects" class="tab gap">PROJECTS</h2>
-        <div class="card text-center gap" style="width: 18rem;">
-            <img src="img/cardio.jpeg" class="card-img-top" alt="...">
-            <div class="card-body gap">
-              <h5 class="card-title">Cardiovascular disease prediction system</h5>
-              <p class="card-text">From the quick survey, factors are taken into the model which gives users the risk that they are in of having a Cardiovascular disease.</p>
-              <a href="https://www.youtube.com/watch?v=Ox20a8hxV9M&feature=youtu.be" class="btn btn-primary" target="_blank">SEE MORE</a>
+          <div class="prog">
+            <!-- <text>C</text> -->
+            <div class="bar">
+              <div class="progress" style="width: 75%;"></div>
             </div>
           </div>
-
-        <!-- BLOG -->
-        <h2 id="blogs" class="tab gap">BLOG</h2>
-        <div class="card-group gap">
-            <div class="card gap">
-                <a href="https://medium.com/gen-y/ondata-visualisation-techniques-commonly-used-in-machine-learning-python-27e58bb20e23" target="_blank">
-                    <img class="blog-img" src="img/blog1.png" class="card-img-top">
-                    <div class="card-body gap">
-                        <h5 class="card-title"><strong>Data Visualisation techniques commonly used in Machine Learning (Python)</strong></h5>
-                        <p class="card-text">Machine Learning, being a subset of AI gives us a wide range of possibilities. Possibilities which allow us to get close to accurate predictions, which are achieved by massive amounts of data. The visualisation of these huge datasets allows us to get an understanding of the statistics behind it. Hence, allowing us to use suitable models.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </a>
+          <div class="prog">
+            <!-- <text>C++</text> -->
+            <div class="bar">
+              <div class="progress" style="width: 60%;"></div>
             </div>
-            <div class="card gap">
-                <a href="https://medium.com/@sg23600/numpy-library-240865c74bda" target="_blank">
-                    <img class="blog-img" src="img/blog2.png" class="card-img-top">
-                    <div class="card-body gap">
-                        <h5 class="card-title"><strong>NumPy Library</strong></h5>
-                        <p class="card-text">NumPy is used for numerical and scientific calculation in Python(programming language). High performance array objects are provided by this library. It is a very important library on which almost every data science or machine learning Python packages such as SciPy (Scientific Python), Mat−plotlib (plotting library), Scikit-learn, etc depends on to a reasonable extent.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </a>
+          </div>
+          <div class="prog">
+            <!-- <text>Python</text> -->
+            <div class="bar">
+              <div class="progress" style="width: 92%;"></div>
             </div>
+          </div>
+          <div class="prog">
+            <!-- <text>HTML</text> -->
+            <div class="bar">
+              <div class="progress" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="prog">
+            <!-- <text>CSS</text> -->
+            <div class="bar">
+              <div class="progress" style="width: 55%;"></div>
+            </div>
+          </div>
+          <div class="prog">
+            <!-- <text>Bootstrap</text> -->
+            <div class="bar">
+              <div class="progress" style="width: 35%;"></div>
+            </div>
+          </div>
+          <div class="prog">
+            <!-- <text>Javascript</text> -->
+            <div class="bar">
+              <div class="progress" style="width: 75%;">88%</div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <h2 id="contact" class="tab">CONTACT</h2>
-        <center>
-            <div class="contact">
-                <text><strong>Have a question or want to work together?</strong></text>
-                <div class="contact-mini">
-                    <input class="form-control" type="text" placeholder="Name" type="text" name="name" required>
-                </div>
-                <div class="contact-mini">
-                    <input class="form-control contact-mini" type="text" placeholder="Email" type="email" name="name" required>
-                </div>
-              <div class="contact-mini">
-                <textarea class="contact-mini" placeholder="Your Message" type="text" name="message" required></textarea>
-              </div>
-                <input class="button" type="submit" id="submit" value="SUBMIT">
-            </div>
-        </center>
-        
-        <!-- LINKS -->
-        <center>
-            <div class="links gap">
-                <div class="logo gap">
-                    <a href="https://www.instagram.com/tech_cj/">
-                        <img src="img/insta-logo.png">
-                    </a>
-                </div>
-                <div class="logo gap">
-                    <a href="https://www.linkedin.com/in/sujay-goswami-b14420192/">
-                        <img src="img/linkedin-logo.png">
-                    </a>
-                </div>
-                <div class="logo gap">
-                    <a href="https://github.com/sg23600/">
-                        <img src="img/git-logo.png">
-                    </a>
-                </div>
-            </div>
-        </center>
-    
-        <script type="text/Javascript" src="script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <!-- PROJECTS -->
+      <h2 id="projects" class="tab gap">PROJECTS</h2>
+      <div class="card text-center gap" style="width: 18rem;">
+        <img src="img/cardio.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body gap">
+          <h5 class="card-title">Cardiovascular disease prediction system</h5>
+          <p class="card-text">
+            From the quick survey, factors are taken into the model which gives
+            users the risk that they are in of having a Cardiovascular disease.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=Ox20a8hxV9M&feature=youtu.be"
+            class="btn btn-primary"
+            target="_blank"
+            >SEE MORE</a
+          >
+        </div>
+      </div>
 
+      <!-- BLOG -->
+      <h2 id="blogs" class="tab gap">BLOG</h2>
+      <div class="card-group gap">
+        <div class="card gap">
+          <a
+            href="https://medium.com/gen-y/ondata-visualisation-techniques-commonly-used-in-machine-learning-python-27e58bb20e23"
+            target="_blank"
+          >
+            <img class="blog-img" src="img/blog1.png" class="card-img-top" />
+            <div class="card-body gap">
+              <h5 class="card-title">
+                <strong
+                  >Data Visualisation techniques commonly used in Machine
+                  Learning (Python)</strong
+                >
+              </h5>
+              <p class="card-text">
+                Machine Learning, being a subset of AI gives us a wide range of
+                possibilities. Possibilities which allow us to get close to
+                accurate predictions, which are achieved by massive amounts of
+                data. The visualisation of these huge datasets allows us to get
+                an understanding of the statistics behind it. Hence, allowing us
+                to use suitable models.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="card gap">
+          <a
+            href="https://medium.com/@sg23600/numpy-library-240865c74bda"
+            target="_blank"
+          >
+            <img class="blog-img" src="img/blog2.png" class="card-img-top" />
+            <div class="card-body gap">
+              <h5 class="card-title"><strong>NumPy Library</strong></h5>
+              <p class="card-text">
+                NumPy is used for numerical and scientific calculation in
+                Python(programming language). High performance array objects are
+                provided by this library. It is a very important library on
+                which almost every data science or machine learning Python
+                packages such as SciPy (Scientific Python), Mat−plotlib
+                (plotting library), Scikit-learn, etc depends on to a reasonable
+                extent.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <h2 id="contact" class="tab">CONTACT</h2>
+      <center>
+        <div class="contact">
+          <text
+            ><strong>Have a question or want to work together?</strong></text
+          >
+          <div class="contact-mini">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Name"
+              type="text"
+              name="name"
+              required
+            />
+          </div>
+          <div class="contact-mini">
+            <input
+              class="form-control contact-mini"
+              type="text"
+              placeholder="Email"
+              type="email"
+              name="name"
+              required
+            />
+          </div>
+          <div class="contact-mini">
+            <textarea
+              class="contact-mini"
+              placeholder="Your Message"
+              type="text"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <input class="button" type="submit" id="submit" value="SUBMIT" />
+        </div>
+      </center>
+
+      <!-- LINKS -->
+      <center>
+        <div class="links gap">
+          <div class="logo gap">
+            <a href="https://www.instagram.com/tech_cj/">
+              <img src="img/insta-logo.png" />
+            </a>
+          </div>
+          <div class="logo gap">
+            <a href="https://www.linkedin.com/in/sujay-goswami-b14420192/">
+              <img src="img/linkedin-logo.png" />
+            </a>
+          </div>
+          <div class="logo gap">
+            <a href="https://github.com/sg23600/">
+              <img src="img/git-logo.png" />
+            </a>
+          </div>
+        </div>
+      </center>
+
+      <script type="text/Javascript" src="script.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+      ></script>
     </div>
-</body>
+  </body>
 </html>

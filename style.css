@@ -3,167 +3,159 @@
     flex-wrap: wrap;
     justify-content: center;
 } */
-html{
-    margin-right: 0;
-    padding: 0;
+html {
+  margin-right: 0;
+  padding: 0;
 }
 
 body {
-    width: 100vw;
+  width: 100vw;
 }
-.gap{
-    padding: 1.2em 2em;
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url(fonts/Montserrat-Light.ttf)
-    format("truetype");
+.gap {
+  padding: 1.2em 2em;
 }
 @font-face {
-    font-family: "Montserrat-Bold";
-    src: url(fonts/Montserrat-ExtraBold.ttf)
-    format("truetype");
+  font-family: "Montserrat";
+  src: url(fonts/Montserrat-Light.ttf) format("truetype");
 }
-@font-face{
-    font-family: "Montserrat-Top";
-    src: url(fonts/Montserrat-Bold.ttf)
-    format("truetype");
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(fonts/Montserrat-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Top";
+  src: url(fonts/Montserrat-Bold.ttf) format("truetype");
 }
 * {
-    font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .tab {
-    font-family: 'Montserrat-Bold';
+  font-family: "Montserrat-Bold";
 }
 
-.about{
-    justify-content: space-around;
-    display: flex;
+.about {
+  justify-content: space-around;
+  display: flex;
 }
 
-.about-mini{
-    /* border: solid 1px; */
-    justify-content: space-around;
-    text-align: center;
-    /* line-height: 20%; */
+.about-mini {
+  /* border: solid 1px; */
+  justify-content: space-around;
+  text-align: center;
+  /* line-height: 20%; */
 }
 
-
-.about-2{
-    display: flex;
-    justify-content: space-around;
-  
+.about-2 {
+  display: flex;
+  justify-content: space-around;
 }
 
-.about-mini-2{
-    /* border: solid 1px; */
-    padding-left: 2%;
-    justify-content: space-around;
-    text-align: left;
-    /* line-height: 20%; */
+.about-mini-2 {
+  /* border: solid 1px; */
+  padding-left: 2%;
+  justify-content: space-around;
+  text-align: left;
+  /* line-height: 20%; */
 }
 .links {
-    justify-content: space-evenly;
-    display: flex;
-    padding-top: 2rem;
+  justify-content: space-evenly;
+  display: flex;
+  padding-top: 2rem;
 }
 
-
-
-h1{
-    /* font-family: 'Raleway'; */
-    font-size: 3em;
-    border: 2px 2px 2px 2px solid black;
-    width: 100%;
-    text-align: center;
+h1 {
+  /* font-family: 'Raleway'; */
+  font-size: 3em;
+  border: 2px 2px 2px 2px solid black;
+  width: 100%;
+  text-align: center;
 }
 
-.tab{
-    text-align: center;
+.tab {
+  text-align: center;
 }
-.bar{
-    background-color: rgb(136, 138, 139);
-    height: 25px;
-    width: 90%;
+.bar {
+  background-color: rgb(136, 138, 139);
+  height: 25px;
+  width: 90%;
 }
-.progress{
-    height: 25px;
-    /* width:75%; */
-    background-color: rgb(4, 132, 218);
+.progress {
+  height: 25px;
+  /* width:75%; */
+  background-color: rgb(4, 132, 218);
 }
 
 .prog {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.prog text{
-    margin-right: 1rem;
+.prog text {
+  margin-right: 1rem;
 }
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 .blog-img {
-    display: block;
-    height: 15rem;
-    /* width: 45%; */
-    margin: auto;
+  display: block;
+  height: 15rem;
+  /* width: 45%; */
+  margin: auto;
 }
 
 .profile-img {
-    max-height: 300px;
-    max-width: 250px;
+  max-height: 300px;
+  max-width: 250px;
 }
 
-.contact{
-    width: 400px;
+.contact {
+  width: 400px;
 }
 
 .contact-mini {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
-textarea, input {
-    box-sizing: border-box;
-    width: 400px;
+textarea,
+input {
+  box-sizing: border-box;
+  width: 400px;
 }
 
 #navbar {
-    overflow: hidden;
-    background-color: #333;
-    /* width: 100vw; */
-    left: 0;
-    
+  overflow: hidden;
+  background-color: #333;
+  /* width: 100vw; */
+  left: 0;
 }
 
 #navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .content {
-    padding: 16px;
+  padding: 16px;
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .sticky + .content {
-    padding-top: 60px;
+  padding-top: 60px;
 }
-
-
-
-
